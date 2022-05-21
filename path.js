@@ -1,0 +1,5 @@
+const path = require('path')
+console.log(path.sep)
+const filepath = path.join('/JS/','path.txt')
+console.log(filepath)
+console.log(path.basename(filepath))

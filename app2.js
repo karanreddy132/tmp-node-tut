@@ -1,0 +1,7 @@
+const sayHi = require('./app')
+var names = require('./app3')
+//console.log(sayHi)
+//console.log(names)
+//sayHi(names.karan)
+//console.log(`This is ${names.karan} ${names.reddy}`)
+console.log(names(4))
